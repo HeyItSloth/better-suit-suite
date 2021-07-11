@@ -72,7 +72,7 @@ suitMk3.name = "power-armor-mk3"
 suitMk3.type = "armor"
 suitMk3.icons = {
 	{
-		icon = suitMk3.icon
+		icon = "__better-suit-suite__/graphics/icons/power-armor-mk3.png"
 	},
 }
 suitMk3.inventory_size_bonus = 50

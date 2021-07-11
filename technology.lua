@@ -1,7 +1,7 @@
 local research = table.deepcopy(data.raw["technology"]["power-armor-mk2"])
 research.type = "technology"
 research.name = "better-suit-suite"
-research.icon = "__better-suit-suite__/graphics/icons/better-suit-suite.png"
+research.icon = "__better-suit-suite__/graphics/icons/power-armor-mk3.png"
 research.icon_size = 256
 research.prerequisites = {"power-armor-mk2"}
 research.unit = {
