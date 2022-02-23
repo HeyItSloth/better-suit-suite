@@ -101,6 +101,7 @@ laser.attack_parameters = {
   }
 }
 laser.categories = {"armor"}
+laser.take_result = "personal-laser-defense-equipment-mk2"
 
 local robot = table.deepcopy(data.raw["roboport-equipment"]["personal-roboport-mk2-equipment"])
 robot.type = "roboport-equipment"
@@ -132,6 +133,7 @@ robot.recharging_animation = {
   animation_speed = 0.5
 }
 robot.categories = {"armor"}
+robot.take_result = "personal-roboport-mk3-equipment"
 
 local solar = table.deepcopy(data.raw["solar-panel-equipment"]["solar-panel-equipment"])
 solar.type = "solar-panel-equipment"
@@ -147,5 +149,6 @@ solar.energy_source = {
 }
 solar.power = "100kW"
 solar.categories = {"armor"}
+solar.take_result = "solar-panel-equipment-mk2"
 
 data:extend{fusion, legs, shield, battery, laser, robot, solar}
