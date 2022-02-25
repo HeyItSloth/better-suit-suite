@@ -45,8 +45,8 @@ shield.energy_source = {
   usage_priority = "primary-input"
 }
 shield.categories = {"armor"}
-shield.max_shield_value = 250
-shield.energy_per_shield = "45kJ"
+shield.max_shield_value = 450
+shield.energy_per_shield = "50kJ"
 
 local battery = table.deepcopy(data.raw["battery-equipment"]["battery-mk2-equipment"])
 battery.type = "battery-equipment"
