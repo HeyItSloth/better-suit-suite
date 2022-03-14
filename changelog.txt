@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2022-02-05
+    New:
+        - Added changelog
+    Changes:
+        - Previous changes are as follows
+        - Buffed shields
+    Bugfixes:
+        - The item you take from the equipment grid will be the correct one...
